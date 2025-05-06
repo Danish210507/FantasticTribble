@@ -47,3 +47,4 @@ git clone https://github.com/yourusername/CodexZone.git
 cd CodexZone
 npm install
 npm run dev
+```
