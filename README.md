@@ -1,50 +1,36 @@
-# 🤖 CodexZone – AI Innovation Hub
+# 🌍 GDP Prediction using ARIMA and World Bank API
 
-**CodexZone** is an open-source hub for exploring, experimenting, and building with Artificial Intelligence. It combines cutting-edge AI tools, custom models, and learning resources to empower developers, researchers, and enthusiasts.
-
-> "AI is not just the future — it's the now. CodexZone helps you be part of it."
+A web-based application to forecast **Gross Domestic Product (GDP)** using the **ARIMA** time series model and real-time GDP data from the **World Bank API**. Built with **Flask** for the backend and **HTML + JavaScript** for the frontend.
 
 ---
 
-## 🧠 What is CodexZone?
+## 🚀 Features
 
-CodexZone is a unified platform that includes:
-
-- 🔍 **Pre-trained AI Models** – Use or fine-tune models for NLP, vision, and more.
-- 🧪 **AI Experimentation Playground** – Test prompts, visualize results, and analyze model behavior.
-- 📚 **Learning Resources** – Learn about Machine Learning, Deep Learning, LLMs, and deployment.
-- 🧰 **Developer Tools** – Integrate AI models into your apps with simple APIs and SDKs.
-- 🧵 **Prompt Engineering Lab** – Craft and optimize prompts for Large Language Models (LLMs).
+- 🔄 Fetch historical GDP data from the **World Bank API** by country code.
+- 📈 Predict future GDP using the **ARIMA model**.
+- 📊 Display interactive charts using **Chart.js**.
+- 🌐 Clean and simple web interface for input and results.
 
 ---
 
-## 🧩 Key Features
+## 🛠️ Tech Stack
 
-- 🧠 Ready-to-use **LLMs** (OpenAI, HuggingFace, local models)
-- 🖼️ **Computer Vision** demos and model APIs
-- 🧾 **Text generation**, classification, and summarization tools
-- 🔧 API-ready endpoints for custom AI tasks
-- 📊 Visual dashboards for prompt testing and model performance
+**Frontend:**
+
+- HTML, CSS (optional), JavaScript
+- Axios for HTTP requests
+- Chart.js for chart visualization
+
+**Backend:**
+
+- Python (Flask)
+- Pandas, NumPy
+- Statsmodels (for ARIMA model)
+
+**Data Source:**
+
+- [World Bank Open Data API](https://data.worldbank.org/)
 
 ---
 
-## 📦 Tech Stack
-
-- **Frontend**: React.js + TailwindCSS
-- **Backend**: Node.js + Express
-- **AI Frameworks**: PyTorch, TensorFlow, HuggingFace Transformers, LangChain
-- **Database**: MongoDB / PostgreSQL
-- **Deployment**: Docker + Vercel / Railway
-
----
-
-## 🚀 Getting Started
-
-Clone and install:
-
-```bash
-git clone https://github.com/yourusername/CodexZone.git
-cd CodexZone
-npm install
-npm run dev
-```
+## 📁 Project Structure
